@@ -4,8 +4,8 @@ from datetime import datetime
 import datetime
 
 
-USER_ID = "12184611774" 
-TOKEN = "BQAaAYDo68m-yXdgpgBMv1RseikMBwMzf4HMd_wmsN5ItGgba4CMOzw7Ikb805iru0hpHKx4i1Edsz1z6yWL5kF3XyhN_W7LNWMG8gfwKcqJhu59RW7JfLXap-bwO9CNE1PIF8sHh63fWjlWIQph0NYvQyoBbZf1CDy8b_ux1LuFR5Ujlobj4Ec"
+USER_ID = "USER_ID" 
+TOKEN = "TOKEN"
 
 
 # Creating an function to be used in other python files
