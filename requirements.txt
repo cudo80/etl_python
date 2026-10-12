@@ -1,0 +1,5 @@
+pandas==2.2.1
+requests==2.31.0
+SQLAlchemy==2.0.28
+python-dotenv==1.0.1
+pytest==8.1.1

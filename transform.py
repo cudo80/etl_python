@@ -1,12 +1,15 @@
 import extract
 import pandas as pd
+from logger_config import get_logger
+
+logger = get_logger(__name__)
 
 
 # Set of Data Quality Checks Needed to Perform Before Loading
 def data_quality(load_df):
     # Checking Whether the DataFrame is empty
     if load_df.empty:
-        print('No Songs Extracted')
+        logger.info('No Songs Extracted')
         return False
 
     # Enforcing Primary keys since we don't need duplicates
@@ -39,4 +42,4 @@ if __name__ == "__main__":
     data_quality(load_df)
     # calling the transformation
     transformed_df = transform_df(load_df)
-    print(transformed_df)
+    logger.info(f"Transformed Dataframe:\n{transformed_df}")

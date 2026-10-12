@@ -1,0 +1,16 @@
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# pytest
+.pytest_cache/
